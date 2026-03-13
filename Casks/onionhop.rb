@@ -8,6 +8,5 @@ cask "onionhop" do
   desc "Tor routing client for macOS"
   homepage "https://www.onionhop.de/"
 
-  # Verify the bundle name on macOS after mounting the DMG.
-  app "OnionHopV2.app"
+  app "OnionHop.app"
 end
