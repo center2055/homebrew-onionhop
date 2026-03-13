@@ -8,5 +8,7 @@ cask "onionhop" do
   desc "Tor routing client for macOS"
   homepage "https://www.onionhop.de/"
 
+  depends_on macos: ">= :monterey"
+
   app "OnionHop.app"
 end
