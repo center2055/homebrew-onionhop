@@ -1,6 +1,6 @@
 cask "onionhop" do
-  version "2.5"
-  sha256 "1cad96c2c549b0746652d6bc119c8d530a1cf33ab26ae06d9fced98594423020"
+  version "2.5.2"
+  sha256 "636c166c6f86d70594f94e81071ba5e052162efe66e141177f7af472e1d4b4e9"
 
   url "https://github.com/center2055/OnionHop/releases/download/v#{version}/OnionHop-#{version}-macOS.dmg",
       verified: "github.com/center2055/OnionHop/"
@@ -8,7 +8,7 @@ cask "onionhop" do
   desc "Tor routing client for macOS"
   homepage "https://www.onionhop.de/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :sonoma"
 
   app "OnionHop.app"
 end
